@@ -1,0 +1,7 @@
+From: =?UTF-8?B?Sm9zw6kgTcOhcnRpbg==?= <jose@example.org>
+To: =?UTF-8?Q?Ren=C3=A9e_Example?= <renee@example.org>
+Subject: =?UTF-8?B?8J+YgCBFbmNvZGVkIFN1YmplY3Q=?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Body with encoded-word headers.

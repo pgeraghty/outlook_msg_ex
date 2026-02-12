@@ -1,0 +1,10 @@
+From: "Example Sender" <sender@example.org>
+To: Recipient One <one@example.org>,
+ Recipient Two <two@example.org>
+Subject: This is a folded
+ header subject
+Date: Tue, 02 Jan 2024 09:00:00 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Body for folded header test.

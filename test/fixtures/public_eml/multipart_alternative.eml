@@ -1,0 +1,17 @@
+From: Multi Part <multi@example.org>
+To: Reader <reader@example.org>
+Subject: Multipart alternative sample
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="alt-123"
+
+Preamble text before first boundary.
+--alt-123
+Content-Type: text/plain; charset=utf-8
+
+Plain body line.
+--alt-123
+Content-Type: text/html; charset=utf-8
+
+<html><body><p>HTML body line.</p></body></html>
+--alt-123--
+Epilogue text after closing boundary.

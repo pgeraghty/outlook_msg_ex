@@ -1,0 +1,17 @@
+From: Attach Example <attach@example.org>
+To: Receiver <receiver@example.org>
+Subject: Multipart mixed attachment sample
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mix-123"
+
+--mix-123
+Content-Type: text/plain; charset=utf-8
+
+See attached file.
+--mix-123
+Content-Type: application/octet-stream; name="hello.txt"
+Content-Disposition: attachment; filename="hello.txt"
+Content-Transfer-Encoding: base64
+
+aGVsbG8gd29ybGQK
+--mix-123--

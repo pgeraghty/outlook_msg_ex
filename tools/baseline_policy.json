@@ -1,0 +1,42 @@
+{
+  "baseline_parser": "ruby-msg",
+  "fail_on_severity": ["high"],
+  "allow_rules": [
+    {
+      "parser": "outlook_msg",
+      "field": "from",
+      "severity": "medium",
+      "reason": "Display-name quoting/style differences only."
+    },
+    {
+      "parser": "outlook_msg",
+      "field": "to",
+      "severity": "medium",
+      "reason": "Display header formatting may omit explicit angle-addr form."
+    },
+    {
+      "parser": "extract-msg",
+      "field": "from",
+      "severity": "medium",
+      "reason": "Comparator library normalizes sender format differently."
+    },
+    {
+      "parser": "extract-msg",
+      "field": "to",
+      "severity": "medium",
+      "reason": "Comparator library often canonicalizes recipient display format."
+    },
+    {
+      "parser": "extract-msg",
+      "field": "body_len",
+      "severity": "medium",
+      "reason": "Minor body rendering length drift is expected."
+    },
+    {
+      "parser": "extract-msg",
+      "field": "html_len",
+      "severity": "medium",
+      "reason": "Minor html rendering length drift is expected."
+    }
+  ]
+}

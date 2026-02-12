@@ -1,0 +1,16 @@
+{
+  "fail_on_severity": ["error"],
+  "fail_on_non_recoverable": true,
+  "max_warnings_per_file": 50,
+  "allow_codes": [
+    "malformed_header_line",
+    "multipart_missing_boundary",
+    "nested_part_warning",
+    "nameid_parse_failed",
+    "attachment_skipped",
+    "property_parse_failed",
+    "pst_index_parse_failed",
+    "pst_descriptor_parse_failed",
+    "pst_branch_loop_detected"
+  ]
+}

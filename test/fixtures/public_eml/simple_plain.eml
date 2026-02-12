@@ -1,0 +1,10 @@
+From: Alice Example <alice@example.org>
+To: Bob Example <bob@example.org>
+Subject: RFC-like plain sample
+Date: Mon, 01 Jan 2024 12:34:56 +0000
+Message-ID: <simple-plain@example.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hello,
+This is a plain text message fixture.

@@ -1,0 +1,27 @@
+# Elixir build artifacts
+/_build/
+/deps/
+
+# Test & coverage artifacts
+/cover/
+*.coverdata
+*.cover
+
+# Crash dumps
+erl_crash.dump
+
+# Tool/editor files
+.elixir_ls/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env/local overrides
+.env
+.env.*

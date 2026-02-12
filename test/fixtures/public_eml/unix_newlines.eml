@@ -1,0 +1,7 @@
+From: Unix Newlines <unix@example.org>
+To: Parser <parser@example.org>
+Subject: LF-only fixture
+Content-Type: text/plain; charset=utf-8
+
+Line one
+Line two
