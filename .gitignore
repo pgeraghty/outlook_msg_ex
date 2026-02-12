@@ -25,3 +25,5 @@ Thumbs.db
 # Env/local overrides
 .env
 .env.*
+__pycache__/
+*.pyc
